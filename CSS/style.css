@@ -30,7 +30,7 @@
   color: white;
 
 }
-/*.fourth{
+.fourth{
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
@@ -88,6 +88,7 @@
 .loner{
   padding-top: 60px;
 }
+/*
 
 .footer{
   background-image: url("../Images/c_image.jpg");
