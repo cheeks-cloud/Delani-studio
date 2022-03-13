@@ -139,16 +139,16 @@
 
 
 
-/*@media screen and (max-width: 740px){
+@media screen and (max-width: 740px){
   .footer form{
     margin-left: 0;
     padding: 0px;  
-  } */
-  /* #message{
+  } 
+   #message{
     width: 170px;
     height: 20px;
-  } */
-  /* .last{
+  }
+  .last{
     top: 20px;
   }
   .imagine,.imagine2,.fourth{
@@ -164,4 +164,4 @@
     display: flex;
     flex-direction: column;
   } 
-}*/
+}
