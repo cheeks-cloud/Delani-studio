@@ -66,7 +66,7 @@ $(document).ready(function(){
       var email = $("#inputEmail").val();
       var message = $("#message").val();
       alert(`Hello ${name}. Your Email address is ${email}.Just to be sure your
-      Message is : ${message}`);
+      Message is : ${message}`)
     });
   });
 
