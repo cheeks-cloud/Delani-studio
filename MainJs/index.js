@@ -1,28 +1,28 @@
 
-// $(document).ready(function(){
-//   $("#one1").hover(function(){
-//     $("#one").fadeIn()
-//   })
-// })
-// $(document).ready(function(){
-//   $("#two2").hover(function(){
-//     $("#two").fadeIn()
-//   })
-// })
-// $(document).ready(function(){
-//   $("#three3").hover(function(){
-//     $("#three").fadeIn()
-//   })
-// })
-// $(document).ready(function(){
-//   $("#four4").hover(function(){
-//     $("#four").fadeIn()
-//   })
-// })
-// $(document).ready(function(){
-//   $("#five5").hover(function(){
-//     $("#five").fadeIn()
-//   })
+$(document).ready(function(){
+  $("#one1").hover(function(){
+    $("#one").fadeIn()
+  })
+})
+$(document).ready(function(){
+  $("#two2").hover(function(){
+    $("#two").fadeIn()
+  })
+})
+$(document).ready(function(){
+  $("#three3").hover(function(){
+    $("#three").fadeIn()
+  })
+})
+$(document).ready(function(){
+  $("#four4").hover(function(){
+    $("#four").fadeIn()
+  })
+})
+$(document).ready(function(){
+  $("#five5").hover(function(){
+    $("#five").fadeIn()
+  })
 // })
 $(document).ready(function(){
   $("#six6").hover(function(){
