@@ -23,7 +23,8 @@ $(document).ready(function(){
   $("#five5").hover(function(){
     $("#five").fadeIn()
   })
-// })
+})
+
 $(document).ready(function(){
   $("#six6").hover(function(){
     $("#six").fadeIn()
@@ -57,13 +58,30 @@ $(document).ready(function(){
       $(".shows").toggle()
       }) 
     })
+
   $(document).ready(function(){
     $("#submit").click(function(e){
       e.preventDefault()
-      var name = $("#Name").val()
-      var email = $("#inputEmail").val()
-      var message = $("#message").val()
+      var name = $("#Name").val();
+      var email = $("#inputEmail").val();
+      var message = $("#message").val();
       alert(`Hello ${name}. Your Email address is ${email}.Just to be sure your
       Message is : ${message}`);
-    });  
+    });
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
