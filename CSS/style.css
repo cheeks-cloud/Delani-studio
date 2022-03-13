@@ -88,7 +88,7 @@
 .loner{
   padding-top: 60px;
 }
-/*
+
 
 .footer{
   background-image: url("../Images/c_image.jpg");
@@ -135,7 +135,7 @@
 
 
 
-@media screen and (max-width: 740px){
+/*@media screen and (max-width: 740px){
   .footer form{
     margin-left: 0;
     padding: 0px;  
