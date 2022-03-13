@@ -20,7 +20,7 @@
   padding-right: 80px;
   padding-left: 70px;
 }
-/*.third{
+.third{
   padding-top: 70px;
   padding-bottom: 70px;
   background-image: url("../Images/s_image.jpg");
@@ -30,7 +30,7 @@
   color: white;
 
 }
-.fourth{
+/*.fourth{
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
