@@ -45,28 +45,25 @@ $(document).ready(function(){
     $(".show").toggle()
     }) 
   })
+$(document).ready(function(){
+  $(".clickableS").click(function(){
+    $(".hideS").toggle()
+    $(".showS").toggle()
+    }) 
+  })
   $(document).ready(function(){
-    $(".clickableS").click(function(){
-      $(".hideS").toggle()
-      $(".showS").toggle()
+    $(".clickables").click(function(){
+      $(".hides").toggle()
+      $(".shows").toggle()
       }) 
     })
-    $(document).ready(function(){
-      $(".clickables").click(function(){
-        $(".hides").toggle()
-        $(".shows").toggle()
-        }) 
-      })
-      $(document).ready(function(){
-        $("#submit").click(function(e){
-          e.preventDefault()
-          var name = $("#Name").val()
-          var email = $("#inputEmail").val()
-          var message = $("#message").val()
-          alert(`Hello ${name} Your Email address is ${email}.just to be sure your
-          message is : ${message}`)
-
-        })
-
-       
-      })
+  $(document).ready(function(){
+    $("#submit").click(function(e){
+      e.preventDefault()
+      var name = $("#Name").val()
+      var email = $("#inputEmail").val()
+      var message = $("#message").val()
+      alert(`Hello ${name} Your Email address is ${email}.Just to be sure your
+      message is : ${message}`)
+    });  
+  });
