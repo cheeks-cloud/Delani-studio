@@ -12,6 +12,10 @@
   text-align: center;
 
 }
+.first img{
+  padding-top: 100px;
+ 
+}
 
 .second{
   padding-top: 40px;
@@ -19,6 +23,7 @@
 .second p{
   padding-right: 80px;
   padding-left: 70px;
+  padding-bottom: 50px;
 }
 .third{
   padding-top: 70px;
@@ -43,53 +48,51 @@
   display: none;
 } 
 .imagine,.imagine2{
-  display: flex;  
+  display: flex;
 }
 .imagine div,.imagine2 div{
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .imagine2{
-  padding-top: 20px;
+  padding-top: 10px;
 }
-/* #one1{
-  background-image: url("../Images/work4.jpg");
-} */
-/* #two2{
-  background-image: url("../Images/work3.jpg");
-} */
-/* #three3{
-  background-image: url("../Images/work2.jpg");
-} */
-/* #four4{
-  background-image: url("../Images/work1.jpg");
-} */
-#one,#four{
-  display: none;
-  border: 1px solid white;
-  color: white;40px
-  /* position: relative;
-  top: ; */
-  
+.bom{
+  padding: 40px;
 }
-#two{
-  display: none;
-  border: 1px solid blue;
-  color: white;
-  
 
+#one{
+  display: none;
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  bottom: 110px;
 }
+#two,#five,#six,#seven,#eight{
+  display: none;
+  border: 3px solid blue;
+  color: white;
+  position: relative;
+  bottom: 120px;
+}
+ #four{
+  display: none;
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  bottom: 120px;
+ } 
+
 #three{
   display: none;
-  border: 1px solid black;
+  border: 3px solid black;
   color: white;
+  position: relative;
+  bottom: 120px;
  
-
 }
 .loner{
   padding-top: 60px;
 }
-
-
 .footer{
   background-image: url("../Images/c_image.jpg");
   background-position: center;
@@ -118,6 +121,7 @@
   padding-left: 200px; 
   padding-right: 60px;
   padding-top: 40px;
+  padding-bottom: 30px;
   
 }
 #message{
@@ -155,9 +159,9 @@
   .imagine div,.imagine2 div{
     padding-top: 20px;
 
-  } */
-  /* .portfolio{
+  } 
+   .portfolio{
     display: flex;
     flex-direction: column;
-  } */
-}
+  } 
+}*/
