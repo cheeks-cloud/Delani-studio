@@ -1,43 +1,43 @@
 
 $(document).ready(function(){
   $("#one1").hover(function(){
-    $("#one").fadeIn()
+    $("#one").toggle()
   })
 })
 $(document).ready(function(){
   $("#two2").hover(function(){
-    $("#two").fadeIn()
+    $("#two").toggle()
   })
 })
 $(document).ready(function(){
   $("#three3").hover(function(){
-    $("#three").fadeIn()
+    $("#three").toggle()
   })
 })
 $(document).ready(function(){
   $("#four4").hover(function(){
-    $("#four").fadeIn()
+    $("#four").toggle()
   })
 })
 $(document).ready(function(){
   $("#five5").hover(function(){
-    $("#five").fadeIn()
+    $("#five").toggle()
   })
 })
 
 $(document).ready(function(){
   $("#six6").hover(function(){
-    $("#six").fadeIn()
+    $("#six").toggle()
   })
 })
 $(document).ready(function(){
   $("#seven7").hover(function(){
-    $("#seven").fadeIn()
+    $("#seven").toggle()
   })
 })
 $(document).ready(function(){
   $("#eight8").hover(function(){
-    $("#eight").fadeIn()
+    $("#eight").toggle()
   })
 })
 $(document).ready(function(){
