@@ -116,6 +116,9 @@
 }button{
   margin-left: 40%;
 }
+.form-control::placeholder{
+  color: antiquewhite;
+}
 .footer form{
  
   padding-left: 200px; 
@@ -124,10 +127,11 @@
   padding-bottom: 30px;
   
 }
-#message{
+.message{
   height: 120px;
-  width:600px;
-  padding-top: 40px;
+  width: 600px;
+  border: 1px solid whitesmoke;
+  color: antiquewhite;
 }
 .last{
   position: relative;
@@ -142,9 +146,9 @@
     margin-left: 0;
     padding: 0px;  
   } 
-   #message{
+   .message{
     width: 170px;
-    height: 20px;
+    height: 80px;
   }
   .last{
     top: 20px;
